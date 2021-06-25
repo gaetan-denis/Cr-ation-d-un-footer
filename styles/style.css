@@ -92,6 +92,11 @@ footer {
 
 /*Medias */
 
+.listes-medias {
+    position:relative;
+    right:10px;
+}
+
 .liste-medias img {
     width: 40px;
     margin : 10px 10px;
@@ -103,4 +108,18 @@ footer {
     display: flex;
     align-items :center;
     font-size:25px;
+}
+
+/*@media screen */
+.contenu-footer {
+    width: 700px;
+    flex-wrap: wrap;
+}
+.bloc {
+    wifth:40%;
+    margin: 0 0;
+}
+bloc:nth-child(1),
+bloc:nth-child(2), {
+    margin-bottom: 50px;
 }
