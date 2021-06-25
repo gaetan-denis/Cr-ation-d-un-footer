@@ -141,3 +141,7 @@ bloc:nth-child(2), {
         margin-top:0;
     }
 }
+
+img {
+    width:20px;
+}
